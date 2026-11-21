@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Mail,
   Phone,
-  Linkedin,
+  Briefcase,
   Copy,
   Check,
   ChevronRight,
@@ -90,7 +90,7 @@ export default function HeroSection({
                   : 'bg-white border-slate-200 hover:border-indigo-400 text-slate-700 shadow-2xs'
               }`}
             >
-              <Linkedin className="w-3.5 h-3.5 text-sky-400" />
+              <Briefcase className="w-3.5 h-3.5 text-sky-400" />
               <span>LinkedIn</span>
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
             </a>

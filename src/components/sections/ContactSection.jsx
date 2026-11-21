@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, Linkedin, Copy, ExternalLink, Send } from 'lucide-react';
+import { Mail, Phone, Briefcase, Copy, ExternalLink, Send } from 'lucide-react';
 import { PROFILE } from '../../data/portfolioData';
 
 export default function ContactSection({ darkMode, onCopy, onToast }) {
@@ -93,7 +93,7 @@ export default function ContactSection({ darkMode, onCopy, onToast }) {
             >
               <div className="flex items-center gap-3.5">
                 <div className="p-2.5 rounded-xl bg-sky-500/15 text-sky-400">
-                  <Linkedin className="w-5 h-5" />
+                  <Briefcase className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-[11px] font-bold uppercase text-slate-400">
