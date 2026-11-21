@@ -30,7 +30,7 @@ export default function HeroSection({
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]">
             Engineering Scalable{' '}
-            <span className="bg-gradient-to-r from-indigo-400 via-violet-400 to-emerald-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-indigo-400 via-violet-400 to-emerald-400 bg-clip-text text-transparent">
               FinTech & AdTech
             </span>{' '}
             Web Experiences.
